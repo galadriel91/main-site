@@ -1,6 +1,6 @@
 <template>
     <div>
-        <RouterView/>
+        인트로
     </div>
 </template>
 
@@ -8,6 +8,6 @@
 
 </script>
 
-<style lang="scss">
-    @import '@/assets/index.scss';
+<style scoped>
+
 </style>
