@@ -1,10 +1,10 @@
 <template>
-    <div>
-        인트로
-    </div>
+    <MainIntro/>
 </template>
 
 <script setup lang="ts">
+import MainIntro from '@/components/MainIntro.vue';
+
 
 </script>
 

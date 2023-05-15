@@ -43,5 +43,5 @@
 </script>
 
 <style lang="scss">
-@import '@/assets/components/CommonHeader.scss';
+@import '@/assets/scss/components/CommonHeader.scss';
 </style>

@@ -1,14 +1,12 @@
 <template>
-    <CommonHeader/>
-    <div>
-        <RouterView/>
-    </div>
+    <!-- <CommonHeader/> -->
+    <RouterView/>
 </template>
 
 <script setup lang="ts">
-import CommonHeader from '@/components/CommonHeader.vue';
+// import CommonHeader from '@/components/CommonHeader.vue';
 </script>
 
 <style lang="scss">
-    @import '@/assets/index.scss';
+    @import '@/assets/scss/index.scss';
 </style>
