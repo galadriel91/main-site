@@ -1,0 +1,98 @@
+body.dark{
+    .contactForm{
+        form{
+            div{
+                input{
+                    background: #323232;
+                    border-bottom: 2px solid #e0e0e0;
+                    color: #e0e0e0;
+                    &::placeholder{
+                        color: #e0e0e0;
+                    }
+                    &.valid{
+                        border-bottom: 2px solid #51B587;
+                    }
+                }
+            }
+            .inputContentWrap{
+                textarea{
+                    background: #323232;
+                    border: 2px solid #e0e0e0; color: #e0e0e0;
+                    &::placeholder{
+                        color: #e0e0e0;
+                    }
+                    &.valid{
+                        border: 2px solid #51B587;
+                    }
+                }
+            }
+            button{
+                background: #e0e0e0;
+                color: #000; font-weight: bold;
+            }
+        }
+    }
+}
+
+.contactForm{
+    width: 100%; margin: 5rem auto 8rem;
+    display: flex; align-items: center; justify-content: center;
+    form{
+        width: 50rem;
+        div{
+            width: 100%;
+            input{
+                width: 100%; height: 5rem; border-bottom: 2px solid #000; font-size: 1.5rem; text-indent: 1rem; font-family: 'ChosunSg';
+                font-size: 1.5rem; font-weight: bold; color: #000; 
+                
+                &::placeholder{
+                    color: #000;
+                }
+                outline: none;
+                &.valid{
+                    border-bottom: 2px solid #51B587;
+                }
+            }
+        }
+        .inputContentWrap{
+            width: 100%;
+            textarea{
+                margin-top: 2rem;
+                padding: 2rem 0; width: 100%; height:15rem; 
+                resize: none; 
+                border: 2px solid #000;  
+                text-indent: 1rem; box-sizing: border-box; 
+                font-size: 1.5rem; font-weight: bold; color: #000;
+                outline: none;
+                &::placeholder{
+                    color: #000;
+                }
+                &.valid{
+                    border: 2px solid #51B587;
+                }
+            }
+        }
+        button{
+            display: block; margin: 2rem auto 0; 
+            width: 100%; height: 5rem;
+            background: #000; 
+            font-size: 1.5rem;  color: #fff; font-family: 'ChosunSg'; 
+            cursor: pointer; transition: all .5s; 
+        }
+    }
+}
+
+
+@media all and (max-width: 760px) {
+    .contactForm{
+        margin: 4rem auto 3rem; padding: 0 2rem; box-sizing: border-box;
+        form{
+            
+            .inputContentWrap{
+                textarea{
+                    height:13rem; 
+                }
+            }
+        }
+    }
+}

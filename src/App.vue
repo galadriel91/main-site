@@ -1,10 +1,10 @@
 <template>
-    <!-- <CommonHeader/> -->
-    <RouterView/>
+    <CommonHeader/>
+    <!-- <RouterView/> -->
 </template>
 
 <script setup lang="ts">
-// import CommonHeader from '@/components/CommonHeader.vue';
+import CommonHeader from '@/components/common/CommonHeader.vue';
 </script>
 
 <style lang="scss">
