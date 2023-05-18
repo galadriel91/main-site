@@ -1,6 +1,6 @@
 body.dark{
     .visualWrap{
-        border: 2rem solid #323232;
+        border-color: #323232;
         background: linear-gradient(
             135deg, 
             #0E8388 0%,#0E8388 17%,
@@ -230,11 +230,6 @@ body.dark{
 }
 
 @media all and (max-width:600px){
-    body.dark{
-        .visualWrap{
-            border: 1.5rem solid #323232;
-        }
-    }
     .visualWrap{
         border: 1.5rem solid #fff; border-top: none;
     }

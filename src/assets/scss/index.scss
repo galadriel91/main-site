@@ -17,6 +17,9 @@ body{
     margin: 0 auto; 
     height: 100%; 
     font-size: 1rem; font-family: 'ChosunSg';
+    &.dark{
+        background: #323232;
+    }
 }
 
 textarea{
