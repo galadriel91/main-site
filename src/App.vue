@@ -1,6 +1,6 @@
 <template>
     <CommonHeader/>
-    <!-- <RouterView/> -->
+    <RouterView/>
 </template>
 
 <script setup lang="ts">

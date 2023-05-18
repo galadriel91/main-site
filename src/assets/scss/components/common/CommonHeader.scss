@@ -44,7 +44,7 @@ body.dark{
 
 header{
     position: fixed; z-index: 1000; 
-    width: 100%; height: 8rem;
+    width: 100%;
     background: #fff;
 }
 
@@ -209,6 +209,8 @@ header{
 
 @media all and (max-width:760px){
     .headerWrap{
+        left: 1.5rem; 
+        width: calc(100% - 3rem); 
         height: 6rem;
         h1{
             a{
